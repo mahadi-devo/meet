@@ -55,8 +55,13 @@
 	<string>Camera Permission</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone Permission</string>
+	<key>NSCalendarUsageDescription</key>
+	<string>Calendar Permission</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string></string>
 	<key>UIBackgroundModes</key>
 	<array>
+		<string>voip</string>
 	</array>
 </dict>
 </plist>
