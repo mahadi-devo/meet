@@ -43,6 +43,8 @@ target 'meet' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'JitsiMeetSDK', :path => '../ios-sdk'
+
   target 'meetTests' do
     inherit! :complete
     # Pods for testing
